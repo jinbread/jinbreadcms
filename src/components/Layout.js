@@ -37,6 +37,15 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:image" content="/img/og-image.jpg" />
         </Helmet>
         <Navbar />
+        <section className="section">
+          <div className="container">
+            <div className="content">
+              <h1>Hej!</h1>
+              <h3>Jinjae Lee is a multi-disciplinary interaction designer, make design static to kinetic, blending digital and physical experiences based in Seoul and Stockholm.</h3>
+            </div>
+          </div>
+        </section>
+        
         <div>{children}</div>
       </div>
     )}
